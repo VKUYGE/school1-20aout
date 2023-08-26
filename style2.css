@@ -1,0 +1,21 @@
+body
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vidéo
+{
+  text-decoration: none;
+  background-color: rgb(150, 150, 252);
+  padding: 10px;
+  border-radius: 3px;
+  margin: 100px ;
+  color: black;
+  font-weight: bold;
+  transition: box-shadow 1s;
+}
+.vidéo:hover
+{
+  box-shadow: 10px 20px 100px;
+}
